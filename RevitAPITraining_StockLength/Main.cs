@@ -43,7 +43,7 @@ namespace RevitAPITraining_StockLength
 
                 double newLength = length.AsDouble() * ratio;
                 double lengthInMeters = UnitUtils.ConvertFromInternalUnits(newLength, UnitTypeId.Meters);
-                string result = lengthInMeters.ToString() + "м";
+                string result = lengthInMeters.ToString() + " м";
 
                 using (Transaction ts = new Transaction(doc, "Set parameter"))
                 {
