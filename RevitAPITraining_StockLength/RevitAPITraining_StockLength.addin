@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\Doc\RevitApi\RevitAPITraining_StockLength.dll"</Assembly>
+		<AddInId>215DDB2F-959D-4891-8727-C6AB602957D2</AddInId>
+		<FullClassName>RevitAPITraining_StockLength.Main</FullClassName>
+		<VendorId>bdvbuild</VendorId>
+		<Text>3.3 Запись параметра</Text>
+	</AddIn>
+</RevitAddIns>
